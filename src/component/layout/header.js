@@ -5,7 +5,7 @@ function Header() {
     return (
         <header style={headerStyle}>
         <h1>My To Do List</h1>
-        <Link to="/" style={linkStyle}>Home</Link> | <Link to="/about" style={linkStyle}>About</Link>
+        <Link to="/ReactApp" style={linkStyle}>Home</Link> | <Link to="/about" style={linkStyle}>About</Link>
         </header>
     );
 }
