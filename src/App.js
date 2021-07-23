@@ -35,7 +35,7 @@ componentDidMount() {
   };
 
 delTodo = id => {
-  axios.delete('http://jsonplaceholder.typicode.com/todos/${id}').then(res => this.setState(
+  axios.delete(`http://jsonplaceholder.typicode.com/todos/${id}`).then(res => this.setState(
     {todos: [...this.state.todos.filter(todo => todo.id !== id)]}
   ));
   
